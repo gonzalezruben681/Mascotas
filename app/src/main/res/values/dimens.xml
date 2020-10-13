@@ -1,0 +1,7 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
+    <dimen name="imagen_button_view">30dp</dimen>
+    <dimen name="tamaño_letra">25dp</dimen>
+    <dimen name="top">3dp</dimen>
+</resources>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:background="@color/colorPrimary"
+    android:elevation="@dimen/elevacion_actionbar"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+    <ImageView
+        android:layout_width="@dimen/imagen_button_view"
+        android:layout_height="@dimen/imagen_button_view"
+        android:src="@drawable/huella"
+        android:scaleType="centerCrop"
+        android:layout_marginRight="10dp"/>
+
+
+    <ImageButton
+        android:id="@+id/estrella"
+        android:layout_width="@dimen/imagen_button_view"
+        android:layout_height="@dimen/imagen_button_view"
+        android:background="@drawable/signo_de_5_estrellas"
+        android:layout_marginLeft="170dp"
+        />
+
+</androidx.appcompat.widget.Toolbar>
